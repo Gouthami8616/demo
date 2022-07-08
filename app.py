@@ -9,6 +9,9 @@ class Calculator:
     
     def subraction(self) -> float:
         return self.a-self.b
+    
+     def multiplication(self) -> float:
+        return self.a*self.b
 
 
 cal = Calculator(a=3, b=4)
